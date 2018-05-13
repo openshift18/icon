@@ -49,9 +49,9 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
 });
 //
-//app.listen(8080);
+app.listen(8080);
 
-app.listen(80)
+//app.listen(80)
 
 /*auswerten.auswerten(function () {
     console.log("ausgewertet")
